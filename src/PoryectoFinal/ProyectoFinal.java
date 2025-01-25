@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ProyectoFinal {
     public static void main(String[] args) {
     // Declarar variables
-    int vt1,vt2,vt3;
+    int vt1,vt2,vt3,vt4;
     double sm,pt,c;
     String vendedor; 
     // Crear objeto de lectura de datos
@@ -21,8 +21,10 @@ public class ProyectoFinal {
     vt2 = lectura.nextInt();
     System.out.print("Venta 3: ");
     vt3 = lectura.nextInt();
+    System.out.print("Venta 3: ");
+    vt4 = lectura.nextInt();
     // Proceso de datos
-    c=(vt1 + vt2 + vt3) * 0.10;
+    c=(vt1 + vt2 + vt3+ vt4) * 0.10;
     pt=sm+c;
     // Salida de datos
     System.out.print("La comisión de venta es: " + c);
